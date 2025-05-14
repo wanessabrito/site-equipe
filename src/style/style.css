@@ -1,0 +1,222 @@
+/* Reset de margens e preenchimentos padrão */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo global do corpo da página */
+body{
+    font-family: sans-serif;
+    text-decoration: none;
+    background: center/cover no-repeat url(../assets/bg.jpg); /* Imagem de fundo */
+}
+
+/* Cabeçalho principal */
+.header{
+    background-color: #a5c;
+    padding-inline: 16px;
+}
+
+/* Barra de navegação */
+.nav{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between; /* Espaço entre logo e menu */
+    align-items: center;
+    position: relative;
+}
+
+/* Logo da Uninter */
+.logo{
+    font-size: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 135px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Lista de navegação centralizada */
+.nav-list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.nav-list a{
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+    text-align: center;
+}
+
+/* Espaçamento padrão das sections */
+section{
+    padding: 20px;
+}
+
+/* Seção de integrantes: cards lado a lado e centralizados */
+#Integrantes{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Título dos integrantes centralizado */
+#Integrantes h2{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Card de membro */
+.membro {
+    background-color: #aa43e683;
+    border: 1px solid #5b0a74;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Imagem do membro centralizada e ajustada */
+.membro img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+/* Botões sociais (GitHub, LinkedIn) */
+.btn-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 4px;
+    transition: background 0.2s;
+}
+
+.btn-social.github { background: #333; }
+.btn-social.linkedin { background: #0077b5; }
+.btn-social:hover { opacity: 0.85; }
+
+/* Tabela de tarefas centralizada e estilizada */
+table{
+    background-color: #aa43e683;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+table, th, td{
+    color: #000000;
+    border: 1px solid #340442;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Título da tabela centralizado e com espaçamento */
+#Tabela h2{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* Parágrafos da seção Sobre */
+#Sobre p{
+    color: #000000;
+    width: 100%;
+}
+
+/* Botões de tecnologia (HTML5, CSS3) */
+.btn-tech {
+    display: inline-flex;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 6px;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+.btn-tech.html5 {
+    background: #e44d26;
+}
+
+.btn-tech.css3 {
+    background: #2965f1;
+}
+
+.btn-tech:hover {
+    opacity: 0.85;
+}
+
+/* Container flexível para a seção Sobre */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    flex-direction: row-reverse; /* Inverte ordem: imagem à esquerda, texto à direita */
+}
+
+/* Texto da seção Sobre ocupa o máximo de espaço possível */
+.sobre-texto {
+    flex: 1;
+}
+
+/* Imagem da seção Sobre */
+.sobre-img {
+    width: 480px;      
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Títulos personalizados */
+#h2{
+    color: #1e0631;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#h1{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* Rodapé do site */
+footer {
+    background-color: #28023a;
+    color: white;
+    text-align: right;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+

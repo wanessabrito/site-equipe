@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=head, initial-scale=1.0">
+    <title>trabalho</title>
+    <!-- Importa o CSS principal -->
+    <link rel="stylesheet" href="src/style/style.css">
+    <!-- Importa os ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header class="header">
+        <nav class="nav">
+            <!-- Logo da Uninter -->
+            <a href="\" class="logo">
+                <img src="src/assets/uninter-logo-0.png" alt="uninter-logo">
+            </a>
+            <!-- Lista de navegação -->
+            <ul class="nav-list">
+                <li><a href="#Integrantes">Integrantes</a></li>
+                <li><a href="#Tabela">Tabela</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de integrantes -->
+    <section id="Integrantes">
+        <h2>Integrantes</h2>
+        
+        <!-- Card de membro -->
+        <div class="membro">
+            <div class="membro-info">
+                <img src="src/assets/persona01.png" alt="persona01">
+                <h3>Maria Fernanda</h3>
+                <p>Desenvolvedora</p>
+                <p>Apaixonada por tecnologia e estudante de ADS. Gosta de resolver problemas e colaborar em projetos.</p>
+                <p>
+                    <!-- Botões sociais -->
+                    <a href="https://github.com/usuario" target="_blank" class="btn-social github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/usuario" target="_blank" class="btn-social linkedin">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="membro">
+            <div class="membro-info">
+                <img src="src/assets/persona02.png" alt="persona02">
+                <h3>Danilo Oliveira</h3>
+                <p>Desenvolvedor</p>
+                <p>Estudante dedicado de ADS, com foco em desenvolvimento de interfaces modernas e acessíveis.</p>
+                <p>
+                    <a href="https://github.com/usuario" target="_blank" class="btn-social github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/usuario" target="_blank" class="btn-social linkedin">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="membro">
+            <div class="membro-info">
+                <img src="src/assets/persona03.png" alt="persona03">
+                <h3>Rafaela Martins</h3>
+                <p>Designer</p>
+                <p>Estudante criativa e detalhista, Rafaela é responsável pelo visual do projeto. Tem experiência com ferramentas de design.</p>
+                <p>
+                    <a href="https://github.com/usuario" target="_blank" class="btn-social github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/usuario" target="_blank" class="btn-social linkedin">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Tabela">
+        <h2>Tarefas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>RU</th>
+                    <th>Tarefa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria Fernanda</td>
+                    <td>987654321</td> 
+                    <td>Desenvolvimento do CSS e organização visual da página</td>
+                </tr>
+                <tr>
+                    <td>Danilo Oliveira</td>
+                    <td>112233445</td> 
+                    <td>Criação da estrutura semântica do HTML e auxílio na responsividade</td>
+                </tr>
+                <tr>
+                    <td>Rafaela Martins</td>
+                    <td>556677889</td>
+                    <td>Criação do layout visual, escolha de cores e fontes, e prototipação do design</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Seção sobre o projeto -->
+    <section id="Sobre">
+        <!-- Título principal da seção -->
+        <h2 id="h1">Sobre o Projeto</h2>
+        <div class="sobre-container">
+            <!-- Texto sobre o projeto -->
+            <div class="sobre-texto">
+                <h2 id="h2">Site de Equipe</h2>
+                <p>O objetivo deste projeto é criar uma página da equipe usando apenas HTML e CSS.
+                    A ideia é praticar a criação de páginas com boa estrutura e aparência, sem usar ferramentas externas.
+                    O site mostra quem faz parte do grupo, o que cada um fez e como entrar em contato. Também serve para treinar o trabalho em equipe e a organização das tarefas.
+                </p>
+                <p>Tecnologias utilizadas:</p>
+                <p>
+                    <!-- Botões de tecnologia -->
+                    <a class="btn-tech html5" href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">
+                        <i class="fab fa-html5"></i> HTML5
+                    </a>
+                    <a class="btn-tech css3" href="https://developer.mozilla.org/docs/Web/CSS" target="_blank">
+                        <i class="fab fa-css3-alt"></i> CSS3
+                    </a>
+                </p>
+            </div>
+            <!-- Imagem ilustrativa à direita -->
+            <img src="src/assets/group.png" alt="Descrição da imagem" class="sobre-img">
+        </div>
+    </section>
+    
+    <!-- Rodapé do site -->
+    <footer>
+        <p>Contato do grupo: email - wanessabritoramalho@gmail.com</p>
+        <p>Desenvolvido por Wanessa Brito Ramalho - RU: 4916022</p>
+    </footer>
+
+    <!-- Script principal (adicione seu JS aqui se necessário) -->
+    <script defer src="main.js"></script>
+</body>
+</html>
